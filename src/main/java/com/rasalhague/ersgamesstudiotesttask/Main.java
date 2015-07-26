@@ -23,5 +23,6 @@ public class Main
                                                   new FileFoundHandler());
 
         fileScanner.scan();
+        fileScanner.waitForExecutorServiceEnd();
     }
 }
